@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-^yhp^nifkdt&9m%i767)oqo6a^x!=&l3e*$6=t#@k&averauc=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.foilmeet.com', 'foilmeet.com']
+ALLOWED_HOSTS = ['54.146.177.240','foilmeet.com','www.foilmeet.com']
 
 CSRF_TRUSTED_ORIGINS = ['www.foilmeet.com', 'foilmeet.com']
 CSRF_COOKIE_SECURE = True
