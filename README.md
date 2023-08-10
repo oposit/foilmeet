@@ -29,4 +29,10 @@ https://github.com/yeshwanthlm/django-on-ec2 (Remeber to do the pip and Django i
 Running the server: python3 manage.py runserver 0.0.0.0:8000
 
 
+AWS notes
+restarting the serve: sudo systemctl restart foilmeet.service
+
+
+
+
 
