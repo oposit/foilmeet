@@ -26,11 +26,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^yhp^nifkdt&9m%i767)oqo6a^x!=&l3e*$6=t#@k&averauc='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['54.146.177.240','foilmeet.com','www.foilmeet.com']
+ALLOWED_HOSTS = ['127.0.0.1','54.146.177.240','foilmeet.com','www.foilmeet.com']
 
-CSRF_TRUSTED_ORIGINS = ['www.foilmeet.com', 'foilmeet.com']
+CSRF_TRUSTED_ORIGINS = ['https://www.foilmeet.com', 'https://foilmeet.com']
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
